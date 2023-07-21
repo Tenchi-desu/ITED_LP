@@ -12,13 +12,15 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   font-size: 62.5%;
+  background: #dddddd;
 }
 
 body {
   color: #000;
   font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ",
     Meiryo, "ＭＳ Ｐゴシック", sans-serif;
-  background: #fff;
+  background: #dddddd;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
@@ -281,6 +283,7 @@ input[type="button"]:focus {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 ul {
   list-style: circle inside;
+  font-weight: 900;
 }
 ol {
   list-style: decimal inside;
