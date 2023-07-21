@@ -1,3 +1,4 @@
+// モバイル用メニュー
 $(function(){
         $("#open").show();
         $("#close").hide();
@@ -19,6 +20,7 @@ $(function(){
 	
 });
 
+// トップに戻るボタン
 $(function () {
     var topBtn = $('#pagetop');
     topBtn.hide();
@@ -39,6 +41,7 @@ $(function () {
     });
 });
 
+// アイテムへのスクロール
 $(function(){
 	// メニューをクリック
 	$("a[href*=#]:not([href=#])").click(function(){
